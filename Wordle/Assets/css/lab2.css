@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+#board {
+    padding: 5px;
+    margin-top: 0px;
+}
+
+.boardRow {
+    display: flex;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    border: 2px solid gray;
+    margin: 3px;
+    background-color: rgb(33, 33, 33);
+    text-align: center;
+    font-size: 3em;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#guess {
+    margin-top:10px;
+    font-size: 3em;
+    width: 270px;
+    text-transform: uppercase;
+    background-color: rgb(33, 33, 33);
+    text-align: center;
+    border-style: solid;
+    color: white;
+    border-color: white;
+
+}
+
+#submit {
+    font-size: 30px;
+    background-color: gray;;
+    border-color: gray;
+    color:white;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#submit:hover {
+    background-color: #555555;
+    border-color: #555555;
+    border-style: solid;
+    color: white;
+}
+
+#refreshButton {
+    font-size: 16px;
+    background-color: gray;;
+    border-color: gray;
+    color:white;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#refreshButton:hover {
+    background-color: #555555;
+    border-color: #555555;
+    border-style: solid;
+    color: white;
+}
+
+h1 {
+    font-size: 4em;
+    margin:0px;
+    color:ghostwhite;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.highlight {
+    color:chocolate;
+}
+
